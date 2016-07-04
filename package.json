@@ -1,0 +1,26 @@
+{
+  "name": "sorting-algorithm",
+  "version": "0.0.1",
+  "description": "practice sorting algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava test"
+  },
+  "keywords": [
+    "sorting",
+    "algorithm"
+  ],
+  "ava": {
+    "require": [
+      "babel-register"
+    ],
+    "babel": "inherit"
+  },
+  "author": "nukr",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.15.1",
+    "babel-preset-es2015-node6": "^0.2.0",
+    "babel-preset-stage-0": "^6.5.0"
+  }
+}
